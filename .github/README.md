@@ -7,7 +7,7 @@
 GitHub Pages Template repository for 52 For Code Review challenge
 
 
-## [![Byte size of GitHub Pages Template][badge__master__gh_pages_template__source_code]][gh_pages_template__master__source_code] [![Open Issues][badge__issues__gh_pages_template]][issues__gh_pages_template] [![Open Pull Requests][badge__pull_requests__gh_pages_template]][pull_requests__gh_pages_template] [![Latest commits][badge__commits__gh_pages_template__master]][commits__gh_pages_template__master] [![gh-pages-template Demos][badge__gh_pages__gh_pages_template]][gh_pages__gh_pages_template]
+## [![Byte size of GitHub Pages Template][badge__gh_pages__gh_pages_template__source_code]][gh_pages_template__gh_pages__source_code] [![Open Issues][badge__issues__gh_pages_template]][issues__gh_pages_template] [![Open Pull Requests][badge__pull_requests__gh_pages_template]][pull_requests__gh_pages_template] [![Latest commits][badge__commits__gh_pages_template__gh_pages]][commits__gh_pages_template__gh_pages] [![gh-pages-template Demos][badge__gh_pages__gh_pages_template]][gh_pages__gh_pages_template]
 
 
 
@@ -272,10 +272,10 @@ For further details review full length version of [AGPL-3.0][branch__current__li
   "&#x2696; Full length version of AGPL-3.0 License"
 
 
-[badge__commits__gh_pages_template__master]:
+[badge__commits__gh_pages_template__gh_pages]:
   https://img.shields.io/github/last-commit/52ForPeerReview/gh-pages-template/master.svg
 
-[commits__gh_pages_template__master]:
+[commits__gh_pages_template__gh_pages]:
   https://github.com/52ForPeerReview/gh-pages-template/commits/master
   "&#x1F4DD; History of changes on this branch"
 
@@ -307,7 +307,7 @@ For further details review full length version of [AGPL-3.0][branch__current__li
   https://github.com/52ForPeerReview/gh-pages-template/pulls
   "&#x1F3D7; Pull Request friendly, though please check the Community guidelines"
 
-[gh_pages_template__master__source_code]:
+[gh_pages_template__gh_pages__source_code]:
   https://github.com/52ForPeerReview/gh-pages-template/
   "&#x2328; Project source!"
 
@@ -317,7 +317,7 @@ For further details review full length version of [AGPL-3.0][branch__current__li
 [badge__pull_requests__gh_pages_template]:
   https://img.shields.io/github/issues-pr/52ForPeerReview/gh-pages-template.svg
 
-[badge__master__gh_pages_template__source_code]:
+[badge__gh_pages__gh_pages_template__source_code]:
   https://img.shields.io/github/repo-size/52ForPeerReview/gh-pages-template
 
 [jekyllrb__home]:
