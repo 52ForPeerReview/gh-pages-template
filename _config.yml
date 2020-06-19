@@ -16,7 +16,7 @@
 title: 52 For Peer Review
 description: >- # this means to ignore newlines until "baseurl:"
   Challenge to publish one project per weak for peer review for a whole year.
-baseurl: "" # the subpath of your site, ie. your account name
+baseurl: "gh-pages-template" # the subpath of your site, ie. your account name
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # email: your-email@example.com
 # twitter_username:
