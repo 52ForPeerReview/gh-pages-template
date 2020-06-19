@@ -10,3 +10,7 @@
 	path = _layouts/modules/feed-rss2
 	url = https://github.com/liquid-utilities/feed-rss2.git
 	branch = master
+[submodule "includes-translate"]
+	path = _includes/modules/includes-translate
+	url = https://github.com/liquid-utilities/includes-translate.git
+	branch = master
