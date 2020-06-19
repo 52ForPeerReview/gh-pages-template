@@ -43,6 +43,15 @@ EOF
     }
 }
 
+heading_slugify() {
+    awk '{
+        gsub(" ", "_", $0)
+        gsub(/__*/, "_", $0)
+        gsub(/[^a-zA-Z0-9\-]/, "", $0)
+        print $0
+    }' <<<"${1,,}"
+}
+
 
 _account_name="${1}"
 (("${#_account_name}")) || {
@@ -69,6 +78,7 @@ sed -i "/baseurl:/ { s#:[[:print:]]*#: \"${_account_name}\"#; }" "${__DIR__}/_co
 sed -i "/github_username:/ { s#:[[:print:]]*#: ${_account_name}#; }" "${__DIR__}/_config.yml"
 
 sed -i "/gh-pages-template/ { s##${_account_name}#g; }" "${__DIR__}/.github/README.md"
+sed -i "/gh_pages_template/ { s##$(heading_slugify "${_account_name}")#g; }" "${__DIR__}/.github/README.md"
 
 _now="$(date +'%Y-%m-%d %T %z')"
 sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/r000.md"
