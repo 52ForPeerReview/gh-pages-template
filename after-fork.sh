@@ -72,3 +72,4 @@ sed -i "/gh-pages-template/ { s##${_account_name}#g; }" "${__DIR__}/.github/READ
 
 _now="$(date +'%Y-%m-%d %T %z')"
 sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/r000.md"
+sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/rounds/_r000/feed.atom"
