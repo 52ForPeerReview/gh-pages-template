@@ -69,3 +69,6 @@ sed -i "/baseurl:/ { s#:[[:print:]]*#: \"${_account_name}\"#; }" "${__DIR__}/_co
 sed -i "/github_username:/ { s#:[[:print:]]*#: ${_account_name}#; }" "${__DIR__}/_config.yml"
 
 sed -i "/gh-pages-template/ { s##${_account_name}#g; }" "${__DIR__}/.github/README.md"
+
+_now="$(date +'%Y-%m-%d %T %z')"
+sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/r000.md"
