@@ -85,4 +85,4 @@ sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/r000.md"
 sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/rounds/_r000/feed.atom"
 sed -i "/date:/ { s#:[[:print:]]*#: ${_now}#; }" "${__DIR__}/rounds/_r000/feed.rss"
 
-sed -i "/repository:/ { s#:[[:print:]]*#: ${_account_name}#; }" "${__DIR__}/_config_repository.yml"
+sed -i "/repository:/ { s#/[[:print:]]*#/${_account_name}#; }" "${__DIR__}/_config_repository.yml"
