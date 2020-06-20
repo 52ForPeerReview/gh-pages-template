@@ -102,6 +102,14 @@ If you have made a Fork of the `gh-pages-template` repository then please modify
 ```
 
 
+If you are utilizing this repository as a Template, which is recommended, then please also run the `re-init-submodules.sh` script too...
+
+
+```Bash
+./re-init-submodules.sh
+```
+
+
 ... then, make any other edits and/or additions via your favorite text editor.
 
 
