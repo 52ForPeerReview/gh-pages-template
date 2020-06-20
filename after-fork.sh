@@ -36,7 +36,7 @@ EOF
 usage() {
     local _message="${1}"
     cat <<EOF
-Example usage -> ./after-fork.sh 'account-name'
+Example usage -> ./${__NAME__} 'account-name'
 EOF
     (("${#_message}")) && {
         printf >&2 '\n## Error: %s\n' "${_message}"
