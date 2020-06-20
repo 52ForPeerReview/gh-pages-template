@@ -281,7 +281,7 @@ For further details review full length version of [AGPL-3.0][branch__current__li
 
 
 [badge__commits__gh_pages_template__gh_pages]:
-  https://img.shields.io/github/last-commit/52ForPeerReview/gh-pages-template/master.svg
+  https://img.shields.io/github/last-commit/52ForPeerReview/gh-pages-template/gh-pages.svg
 
 [commits__gh_pages_template__gh_pages]:
   https://github.com/52ForPeerReview/gh-pages-template/commits/gh-pages
