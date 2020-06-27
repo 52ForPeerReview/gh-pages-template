@@ -103,7 +103,7 @@ layout: post
 title: ${_post_title}
 description: ${_description}
 date: $(date +'%Y-%m-%d %T %z')
-# date_updated:  ## Optional, formatted like `date` above
+# date_updated:  ## Optional, formatted like 'date' above
 time_to_live: 1800
 ---
 EOF
