@@ -147,7 +147,7 @@ layout: post
 title: "Awk Sorted Unique Count"
 description: "A script to sort and count unique lines or columns"
 date: 2020-06-15 13:52:36 -0700
-# date_updated:  ## Optional, formatted like `date` above
+# date_updated:  ## Optional, formatted like 'date' above
 time_to_live: 1800
 ---
 
